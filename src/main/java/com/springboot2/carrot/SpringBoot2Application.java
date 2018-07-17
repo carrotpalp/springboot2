@@ -12,12 +12,12 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.springboot2.carrot")
-public class FundApplication implements CommandLineRunner {
+public class SpringBoot2Application implements CommandLineRunner {
 
 	public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication();
         springApplication.setBannerMode(Banner.Mode.OFF);
-        springApplication.run(FundApplication.class, args);
+        springApplication.run(SpringBoot2Application.class, args);
 	}
 
     @Override
