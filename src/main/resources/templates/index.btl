@@ -1,0 +1,4 @@
+<link rel = "shortcut icon" href="/images/icon.jpg">
+springboot 2!!!
+@var a=100;
+${a}

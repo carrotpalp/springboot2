@@ -1,0 +1,16 @@
+#management:
+#  security:
+#    #是否启用安全
+#    enabled: true
+#    user:
+#        name: demo
+#        password: actuator
+#endpoints:
+#  shutdown:
+#    #开启shutdown端点
+#    enabled: true
+management:
+    endpoints:
+        web:
+        exposure:
+            include: health,info,env,metrics,h
