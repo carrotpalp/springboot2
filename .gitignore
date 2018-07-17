@@ -16,6 +16,11 @@
 *.iml
 *.ipr
 
+.mvn/
+mvnw
+mvnw.cmd
+nohup.out
+
 ### NetBeans ###
 /nbproject/private/
 /build/
